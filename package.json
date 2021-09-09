@@ -1,0 +1,22 @@
+{
+  "name": "neo4j-training-dev",
+  "keywords": [],
+  "version": "0.0.0",
+  "author": "Mehdi Merabti",
+  "main": "src/index.js",
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "neo4j-driver": "1.7.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.141",
+    "@types/neo4j": "2.0.2",
+    "@types/node": "12.7.11"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/**/*.js"
+  }
+}
